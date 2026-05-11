@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Wielka Skrzynia",
+    "type": "chest",
+    "x": 45.5,
+    "y": 20.3,
+    "description": "Zawiera rzadki miecz."
+  },
+  {
+    "name": "Ukryty Boss",
+    "type": "boss",
+    "x": 12.8,
+    "y": 75.1,
+    "description": "Bardzo trudny przeciwnik w jaskini."
+  },
+  {
+    "name": "Złoże Rudy",
+    "type": "resource",
+    "x": 60.0,
+    "y": 40.5,
+    "description": "Miejsce wydobycia miedzi."
+  }
+]
