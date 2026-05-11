@@ -29,7 +29,7 @@
     .sidebar h1 {
       font-size: 28px;
       margin-bottom: 20px;
-      color: #ff9f43;
+      color: #43aaff;
     }
 
     .search-box {
@@ -61,20 +61,22 @@
 
     .filter-btn:hover {
       background-color: #ff9f43;
+      transform: scale(1.05);
     }
 
     .del {
       padding: 10px;
       border: none;
       border-radius: 8px;
-      background-color: #ff9f43;
+      background-color: #43aaff;
       color: white;
       cursor: pointer;
       transition: 0.3s;
     }
 
     .del:hover {
-      background-color: #ff4343;
+      background-color: #ff0000;
+      transform: scale(1.05);
     }
 
     .details {
@@ -86,7 +88,7 @@
 
     .details h2 {
       margin-bottom: 10px;
-      color: #ff9f43;
+      color: #43aaff;
     }
 
     .details p {
