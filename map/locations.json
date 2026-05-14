@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Zbutwiała Kaplica",
+    "type": "other",
+    "x": 33.2,
+    "y": 18.7,
+    "description": "Opuszczona kaplica z ukrytym ołtarzem i notatkami kultystów."
+  },
+  {
+    "name": "Skrzynia Strażnika",
+    "type": "chest",
+    "x": 48.9,
+    "y": 22.4,
+    "description": "Ciężka skrzynia zawierająca starożytny artefakt."
+  },
+  {
+    "name": "Upadły Tytan",
+    "type": "boss",
+    "x": 10.5,
+    "y": 81.3,
+    "description": "Ogromny boss patrolujący ruiny dawnej twierdzy."
+  },
+  {
+    "name": "Złoże Kwarcu",
+    "type": "resource",
+    "x": 57.1,
+    "y": 39.8,
+    "description": "Rzadkie złoże potrzebne do tworzenia zaawansowanych narzędzi."
+  },
+  {
+    "name": "Obóz Banitów",
+    "type": "other",
+    "x": 21.4,
+    "y": 66.2,
+    "description": "Niewielki obóz pełen agresywnych banitów."
+  },
+  {
+    "name": "Zawalona Jaskinia",
+    "type": "other",
+    "x": 74.6,
+    "y": 55.0,
+    "description": "Wejście częściowo zasypane, w środku słychać dziwne odgłosy."
+  },
+  {
+    "name": "Skrzynia Pod Korzeniami",
+    "type": "chest",
+    "x": 29.9,
+    "y": 12.3,
+    "description": "Mała skrzynia ukryta pod wielkim drzewem."
+  },
+  {
+    "name": "Żyła Żelaza",
+    "type": "resource",
+    "x": 63.4,
+    "y": 44.2,
+    "description": "Bogate złoże żelaza, strzeżone przez dzikie bestie."
+  }
+]

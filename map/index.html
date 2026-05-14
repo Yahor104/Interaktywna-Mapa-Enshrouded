@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enshrouded Map</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h1>Enshrouded Map</h1>
+
+      <input
+        type="text"
+        id="searchInput"
+        class="search-box"
+        placeholder="Search location..."
+      />
+
+      <div id="searchResults" style="margin-bottom:20px;"></div>
+
+      <h3 style="margin-bottom:10px; color:#43aaff;">Filter</h3>
+
+      <div class="filters">
+        <button class="filter-btn" onclick="filterMarkers('all')">
+          All
+        </button>
+
+        <button class="filter-btn" onclick="filterMarkers('boss')">
+          Boss
+        </button>
+
+        <button class="filter-btn" onclick="filterMarkers('chest')">
+          Chest
+        </button>
+
+        <button class="filter-btn" onclick="filterMarkers('resource')">
+          Resource
+        </button>
+
+        <button class="filter-btn" onclick="filterMarkers('other')">
+          Other
+        </button>
+        <button class="del" onclick="loadNew()">
+          Reset map
+        </button>
+      </div>
+
+      <button
+        class="filter-btn"
+        onclick="openMarkerForm()"
+        style="margin-bottom:20px; background:#ff9f43; color:black; font-weight:bold;"
+      >
+        Add new point
+      </button>
+
+      <div id="markerForm" style="display:none; background:#2e2e2e; padding:15px; border-radius:10px; margin-bottom:20px;">
+        <h3 style="margin-bottom:15px; color:#ff9f43;">New point</h3>
+
+        <input id="markerName" class="search-box" placeholder="Point name" />
+
+        <select id="markerType" class="search-box">
+          <option value="boss">Boss</option>
+          <option value="chest">Chest</option>
+          <option value="resource">Resource</option>
+          <option value="other">Other</option>
+        </select>
+
+        <textarea
+          id="markerDescription"
+          class="search-box"
+          placeholder="Description of the point"
+          style="height:80px; resize:none;"
+        ></textarea>
+
+        <button class="filter-btn" onclick="saveMarker()">
+          Save the marker
+        </button>
+      </div>
+
+      <div class="details" id="detailsPanel">
+        <h2>Details</h2>
+        <p>Click the marker on the map.</p>
+      </div>
+
+      <div class="legend">
+        <div>
+          <span class="legend-color" style="background:red"></span>
+          Boss
+        </div>
+
+        <div>
+          <span class="legend-color" style="background:gold"></span>
+          Chest
+        </div>
+
+        <div>
+          <span class="legend-color" style="background:limegreen"></span>
+          Resource
+        </div>
+        <div>
+          <span class="legend-color" style="background:dodgerblue"></span>
+          Other
+        </div>
+      </div>
+    </aside>
+    <main class="map-container">
+      <div class="map" id="map"></div>
+    </main>
+  </div>
+
+  <script type="module" src="./js/main.js"></script>
+
+</body>
+</html>
